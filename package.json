@@ -6,7 +6,9 @@
     "email": "jason@pincin.com",
     "name": "Jason Pincin"
   },
-  "bin": "./bin/cmd.js",
+  "bin": {
+    "standard": "./bin/cmd.js"
+  },
   "bugs": {
     "url": "https://github.com/jasonpincin/lower-standard/issues"
   },
