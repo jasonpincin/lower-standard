@@ -2,8 +2,8 @@ var eslint = require('eslint')
 var extend = require('xtend')
 var pkg = require('./package.json')
 
-var configStandard = require('eslint-config-standard')
-var configStandardJsx = require('eslint-config-standard-jsx')
+var configStandard = require('eslint-config-lower-standard')
+var configStandardJsx = require('eslint-config-lower-standard-jsx')
 
 var config = extend(configStandard)
 config.plugins.push.apply(config.plugins, configStandardJsx.plugins)
@@ -18,7 +18,7 @@ module.exports = {
   version: pkg.version,
   homepage: pkg.homepage,
   bugs: pkg.bugs.url,
-  tagline: 'Use JavaScript Standard Style',
+  tagline: 'Lower your standards!',
   eslintConfig: {
     baseConfig: config
   },

@@ -1,20 +1,19 @@
 {
-  "name": "standard",
-  "description": "JavaScript Standard Style",
-  "version": "6.0.4",
+  "name": "lower-standard",
+  "description": "JavaScript Lower Standard Style",
+  "version": "6.0.4-1",
   "author": {
-    "email": "feross@feross.org",
-    "name": "Feross Aboukhadijeh",
-    "url": "http://feross.org/"
+    "email": "jason@pincin.com",
+    "name": "Jason Pincin"
   },
   "bin": "./bin/cmd.js",
   "bugs": {
-    "url": "https://github.com/feross/standard/issues"
+    "url": "https://github.com/jasonpincin/lower-standard/issues"
   },
   "dependencies": {
     "eslint": "^2.0.0-rc.0",
-    "eslint-config-standard": "5.1.0",
-    "eslint-config-standard-jsx": "1.1.1",
+    "eslint-config-lower-standard": "5.1.0-1",
+    "eslint-config-lower-standard-jsx": "1.1.1-1",
     "eslint-plugin-promise": "^1.0.8",
     "eslint-plugin-react": "^3.16.1",
     "eslint-plugin-standard": "^1.3.1",
@@ -30,7 +29,7 @@
     "standard-packages": "^3.0.5",
     "tape": "^4.4.0"
   },
-  "homepage": "http://standardjs.com",
+  "homepage": "https://github.com/jasonpincin/lower-standard",
   "keywords": [
     "JavaScript Standard Style",
     "check",
@@ -60,7 +59,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/standard.git"
+    "url": "git://github.com/jasonpincin/lower-standard.git"
   },
   "scripts": {
     "test": "./bin/cmd.js --verbose && tape test/*.js",
