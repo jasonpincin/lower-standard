@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "eslint": "^2.0.0-rc.0",
-    "eslint-config-lower-standard": "5.1.0-1",
+    "eslint-config-lower-standard": "5.1.0-2",
     "eslint-config-lower-standard-jsx": "1.1.1-1",
     "eslint-plugin-promise": "^1.0.8",
     "eslint-plugin-react": "^3.16.1",
