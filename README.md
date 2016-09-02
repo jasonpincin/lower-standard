@@ -14,7 +14,6 @@ npm install lower-standard
 More relaxed than regular standard. Code should be enjoyable to write and pretty
 to look at. A lot of the big ticket items are the same as standard, for example:
 
-- **2 spaces** – for indentation
 - **Single quotes for strings** – except to avoid escaping
 - **No unused variables** – this one catches *tons* of bugs!
 - **No semicolons**
@@ -32,11 +31,15 @@ to look at. A lot of the big ticket items are the same as standard, for example:
 
 The biggest differences:
 
+- **4 spaces** – for indentation
+- **function names** - warn if missing - seriously, name your functions,
+  the person debugging production will thank you
 - **arrow parens if needed** `array.filter(x => x)` is nicer to look at
 - **stroustrup brace style** down with 1tbs!
 - **do not force curlys** `if (bool) doSomething()` is nice looking
 - **proper generator start position** - `function *sayHello() {}`
 - **line up key colons**
+- **max line length 80** - keep stuff readable on small screens
 - **allow case fallthroughs** - why disable this feature? Just use `if` if you
   don't like it
 - **no opinion on onevar**

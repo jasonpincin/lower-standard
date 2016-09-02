@@ -1,0 +1,15 @@
+{
+    "extends": ["standard", "standard-jsx"],
+    "rules": {
+        "indent": [2, 4, { "SwitchCase": 1, "VariableDeclarator": 1 }],
+        "arrow-parens": [2, "as-needed"],
+        "brace-style": [2, "stroustrup", { "allowSingleLine": true }],
+        "curly": [2, "multi", "consistent"],
+        "generator-star-spacing": 0,
+        "key-spacing": [2, { "align": "colon" }],
+        "no-fallthrough": 0,
+        "one-var": 0,
+        "func-names": [1, "always"],
+        "max-len": [2, 80]
+    }
+}
