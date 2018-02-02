@@ -31,7 +31,7 @@ to look at. A lot of the big ticket items are the same as standard, for example:
 
 The biggest differences:
 
-- **4 spaces** – for indentation
+- **2 spaces** – for indentation
 - **function names** - warn if missing - seriously, name your functions,
   the person debugging production will thank you
 - **arrow parens if needed** `array.filter(x => x)` is nicer to look at
